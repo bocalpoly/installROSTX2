@@ -31,3 +31,7 @@ Get clone https://github.com/bocalpoly/installROSTX2.git
   ~/MAGI$ catkin_create_pkg test_code rospy
 9. remove the ROS 
    sudo apt-get remove ros-*
+   
+10. To find available packages and install a package
+   apt-cache search ros-kinetic
+   sudo apt-get install ros-kinetic-rospy-tutorials
