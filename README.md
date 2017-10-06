@@ -29,3 +29,5 @@ Get clone https://github.com/bocalpoly/installROSTX2.git
 8. setup packages
   ~$ cd MAGI
   ~/MAGI$ catkin_create_pkg test_code rospy
+9. remove the ROS 
+   sudo apt-get remove ros-*
