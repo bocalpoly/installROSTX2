@@ -16,10 +16,13 @@ This is an optional step. Adds the repositories universe, multiverse, and restri
 2.	Git clone the url 
 Get clone https://github.com/bocalpoly/installROSTX2.git
 3.	Run the installation 
-cd installROSTX2 
-ls
-./installROS.sh
-4.	Setup the workspace, he default workspace name is catkin_ws. This script also sets up some ROS environment variables. Refer to the script for details.
+  cd installROSTX2 
+  ls
+  ./installROS.sh
+4.	Setup the workspace, the default workspace name is catkin_ws. This script also sets up some ROS environment variables. Refer to the script for details.
 ./setupCatkinWorkspace.sh MAGI   
 5.	Double check roscore
 6.	Rosnode list
+7. If you open a new shell/terminal, you have to source the setup.bash file for the workspace you want to work with. This can be avoid by adding the source ~/MAGI/devel/setup.bash command to your .bashrc file.
+  ~$ cd MAGI
+  ~/MAGI$ source devel/setup.bash
