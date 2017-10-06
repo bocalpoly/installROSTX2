@@ -26,3 +26,6 @@ Get clone https://github.com/bocalpoly/installROSTX2.git
 7. If you open a new shell/terminal, you have to source the setup.bash file for the workspace you want to work with. This can be avoid by adding the source ~/MAGI/devel/setup.bash command to your .bashrc file.
   ~$ cd MAGI
   ~/MAGI$ source devel/setup.bash
+8. setup packages
+  ~$ cd MAGI
+  ~/MAGI$ catkin_create_pkg test_code rospy
